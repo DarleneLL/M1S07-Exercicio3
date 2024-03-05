@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 50vw;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vh;
+    height: 70vh;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.titulo {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+span {
+    color: blue;
+}
+.col1 {
+    padding-left: 30px;
+}
+
+.col1 img {
+    width: 155px;
+    height: 169px;
+}
+
+.col1 a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.col2 {
+    padding: 40px;
+}
+
+form img{
+    width: 20px;
+    padding-right: 10px;
+}
+
+.traco {
+    color: rgb(195, 192, 192);
+}
+
+.botao-logo {
+    display: flex;
+    align-items: center;
+    border-width: 0.5px;
+    background-color: white;
+    border-radius: 10px;
+    width: 175px;
+    height: 30px;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.campo-input{
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 17px;
+    background-color: rgb(219, 233, 244);
+    height: 27px;
+    width: 165px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.botao-sign {
+   padding: 10px 20px;
+   margin-top: 20px;
+   background-color:rgb(0, 72, 255) ;
+   color: white;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   font-size: 12px;
+   width: 175px;
+   height: 30px;
+
+}
+
+.recuperar-senha {
+    text-decoration: none;
+    padding-left: 90px;
+    color: black;
+    font-size: 12px;
+}
